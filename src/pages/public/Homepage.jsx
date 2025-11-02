@@ -1,6 +1,7 @@
 import React from 'react'
 import LeftBar from '../../components/NavBar/LeftBar';
 import RightBar from '../../components/NavBar/RightBar';
+import HeroSection from '../../components/HeroSec/HeroSection';
 function Homepage() {
   return (
     <>
@@ -8,6 +9,7 @@ function Homepage() {
       <LeftBar/>
       <RightBar/>
       </div>
+      <HeroSection/>
     </>
   )
 }
