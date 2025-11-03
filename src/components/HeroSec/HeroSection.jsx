@@ -14,7 +14,7 @@ function HeroSection() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 px-4">
+      <div className="relative px-4">
         <h1 className="text-4xl lg:text-5xl font-bold text-white mb-4">
           Build and deploy on the AI Cloud.
         </h1>

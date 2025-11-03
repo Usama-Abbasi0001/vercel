@@ -49,7 +49,7 @@ function RightBar() {
 
       {/* Mobile Dropdown Menu */}
       {isOpen && (
-        <div className="absolute top-20 md:w-[730px] w-[340px] mx-4 flex flex-col space-y-4 right-0 bg-gray-800 text-white p-5 rounded-lg shadow-lg lg:hidden">
+        <div className="absolute z-10 top-20 md:w-[730px] w-[340px] mx-4 flex flex-col space-y-4 right-0 bg-gray-800 text-white p-5 rounded-lg shadow-lg lg:hidden">
           {/* Products */}
           <div>
             <div
