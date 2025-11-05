@@ -1,7 +1,10 @@
 import React from "react";
 import { Triangle } from "lucide-react"; // You can replace this with your custom Back icon
+import { useNavigate } from "react-router-dom";
 
 function HeroSection() {
+  const navigate = useNavigate()
+  const togodemo =()=>navigate("/demo")
   return (
     <section className="lg:w-[1000px] md:w-[700px] w-[350px] rounded-[10px] mx-auto relative  flex flex-col items-center justify-center text-center h-[700px] overflow-hidden bg-gradient-to-b from-black via-gray-900 to-black">
       {/* Gradient grid background */}
@@ -29,7 +32,9 @@ function HeroSection() {
             <Triangle size={18} className="fill-black" />
             Start Deploying
           </button>
-          <button className="bg-black text-white border border-white px-6 py-3 rounded-full font-semibold hover:bg-white hover:text-black transition">
+          <button
+          onClick={togodemo}
+          className="bg-black text-white border border-white px-6 py-3 rounded-full font-semibold hover:bg-white hover:text-black transition">
             Get a Demo
           </button>
         </div>
